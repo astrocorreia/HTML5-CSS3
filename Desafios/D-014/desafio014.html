@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 14- Tabela</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        tbody  {
+          color: black;
+        }
+       .me {
+            text-align: left;
+            background-color: rgba(128, 128, 128, 0.698);
+            color: white;
+        }
+        .nota {
+            background-color: rgba(128, 128, 128, 0.683);
+            color: white;
+        }
+        table {
+            border-collapse: collapse;
+            
+            
+        }
+        thead {
+            background-color: rgba(128, 128, 128, 0.75);
+            
+        }
+        .num1 {
+            color: white;
+        }
+        
+        
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela-Ex-014</h1>
+    <table>
+        <thead>
+            <tr>
+                <th  class="num1">Área</th>
+                <th class="num1">Dísciplinas</th>
+                <th colspan="2" class="num1">Notas</th>
+                <th  class="num1">Média</th>
+                
+            </tr>
+            
+
+        </thead>
+        <tbody>
+            
+            
+                <th rowspan="4" scope="rowgroup" >Exatas</th>
+                <td>Matemática</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            
+            <tr>
+
+            <td>Física</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+
+            </tr>
+            <tr>
+
+            <td>Química</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+    
+            </tr>
+            <tr>
+
+            <td>Biologia</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+
+            </tr>
+            <tr>
+                <tr>
+                    <th colspan="4" class="me">Média de Exatas</th>
+                    <td class="nota">10</td>
+                </tr>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+             </tr>
+             <tr>
+                <td>Geográfia</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+             </tr>
+             <tr>
+                <th colspan="4" class="me">Média de Humanas</th>
+                    <td class="nota">10</td>
+             </tr>
+            
+                
+           
+    
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
